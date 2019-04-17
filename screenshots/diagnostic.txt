@@ -1,0 +1,454 @@
+--------- beginning of main
+04-17 00:58:31.041  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:31.041  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:33.444  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:33.445  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:39.572  1389  3235 W audio_hw_generic: Not supplying enough data to HAL, expected position 6149857 , only wrote 6149520
+04-17 00:58:39.938  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:40.072  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 8 lines
+04-17 00:58:40.082  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+--------- beginning of system
+04-17 00:58:40.860  1624  6706 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=edu.washington.minhsuan.activityspy/.MainActivity bnds=[24,245][230,523]} from uid 10020
+04-17 00:58:40.888  1624  1634 I ActivityManager: Start proc 8526:edu.washington.minhsuan.activityspy/u0a86 for activity edu.washington.minhsuan.activityspy/.MainActivity
+04-17 00:58:40.890  8526  8526 I zygote  : Not late-enabling -Xcheck:jni (already on)
+04-17 00:58:40.893  1389  3235 W audio_hw_generic: Hardware backing HAL too slow, could only write 0 of 720 frames
+04-17 00:58:40.906  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:40.906  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:40.910  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:40.918  8526  8526 W zygote  : Unexpected CPU variant for X86 using defaults: x86
+04-17 00:58:41.058  6202  6326 I MicroDetector: Keeping mic open: false
+04-17 00:58:41.059  6202  6591 I DeviceStateChecker: DeviceStateChecker cancelled
+04-17 00:58:41.063  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:41.083  6202  6330 I AudioController: internalShutdown
+04-17 00:58:41.084  6202  7926 I MicroRecognitionRunner: Stopping hotword detection.
+04-17 00:58:41.112  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:41.118  6202  6330 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:41.123  6202  6330 E AudioSource: Stop listening is called on already closed AudioSource
+04-17 00:58:41.153  6202  6600 I MicroRecognitionRunner: Detection finished
+04-17 00:58:41.193  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:41.193  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:41.223  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.250  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.262  6202  6213 I zygote  : Background concurrent copying GC freed 17860(1006KB) AllocSpace objects, 1(64KB) LOS objects, 44% free, 7MB/13MB, paused 14.387ms total 171.573ms
+04-17 00:58:41.282  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.299  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 1 line
+04-17 00:58:41.303  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.316  2215  2224 I zygote  : Background concurrent copying GC freed 5301(434KB) AllocSpace objects, 11(2MB) LOS objects, 49% free, 5MB/10MB, paused 7.970ms total 233.411ms
+04-17 00:58:41.318  8526  8526 I InstantRun: starting instant run server: is main process
+04-17 00:58:41.322  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.390  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 3 lines
+04-17 00:58:41.405  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:41.449  8526  8526 I ActivitySpy: No Bundle
+04-17 00:58:41.476  8526  8526 I zygote  : Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+04-17 00:58:41.476  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.476  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.476  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.476  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.476  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.476  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.476  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.476  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.477  8526  8526 I zygote  : Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/base.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_dependencies_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_resources_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_0_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_1_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_2_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_3_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_4_apk.apk", zip file "/data/app/edu.wash
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.477  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.477  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.477  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.478  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.478  8526  8526 I zygote  : 
+04-17 00:58:41.478  8526  8526 I zygote  : Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.478  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.478  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.478  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.478  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.479  8526  8526 I zygote  : Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/base.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_dependencies_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_resources_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_0_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_1_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_2_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_3_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_4_apk.apk", zip file "/data/app/edu.wash
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.479  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.479  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.479  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.480  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.480  8526  8526 I zygote  : 
+04-17 00:58:41.480  8526  8526 I zygote  : Rejecting re-init on previously-failed class java.lang.Class<android.support.v4.view.ViewCompat$OnUnhandledKeyEventListenerWrapper>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.480  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.480  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.480  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.480  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.480  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.480  8526  8526 I zygote  : Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/base.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_dependencies_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_resources_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_0_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_1_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_2_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_3_apk.apk", zip file "/data/app/edu.washington.minhsuan.activityspy-K9A44ZtWqUw6h3AFg3lmxg==/split_lib_slice_4_apk.apk", zip file "/data/app/edu.wash
+04-17 00:58:41.480  8526  8526 I zygote  :   at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:93)
+04-17 00:58:41.481  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:379)
+04-17 00:58:41.481  8526  8526 I zygote  :   at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.support.v4.view.ViewCompat.setBackground(android.view.View, android.graphics.drawable.Drawable) (ViewCompat.java:2341)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.support.v7.widget.ActionBarContainer.<init>(android.content.Context, android.util.AttributeSet) (ActionBarContainer.java:62)
+04-17 00:58:41.481  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance0(java.lang.Object[]) (Constructor.java:-2)
+04-17 00:58:41.481  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:334)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:647)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:790)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:730)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:863)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:824)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:515)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:423)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:374)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.view.ViewGroup android.support.v7.app.AppCompatDelegateImpl.createSubDecor() (AppCompatDelegateImpl.java:607)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.ensureSubDecor() (AppCompatDelegateImpl.java:518)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatDelegateImpl.setContentView(int) (AppCompatDelegateImpl.java:466)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.support.v7.app.AppCompatActivity.setContentView(int) (AppCompatActivity.java:140)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void edu.washington.minhsuan.activityspy.MainActivity.onCreate(android.os.Bundle) (MainActivity.kt:19)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6975)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1213)
+04-17 00:58:41.481  8526  8526 I zygote  :   at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2770)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2892)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.ActivityThread.-wrap11(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1593)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:105)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.os.Looper.loop() (Looper.java:164)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6541)
+04-17 00:58:41.481  8526  8526 I zygote  :   at java.lang.Object java.lang.reflect.Method.invoke(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void com.android.internal.os.Zygote$MethodAndArgsCaller.run() (Zygote.java:240)
+04-17 00:58:41.481  8526  8526 I zygote  :   at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:767)
+04-17 00:58:41.481  8526  8526 I zygote  : 
+04-17 00:58:41.541  8526  8526 I ActivitySpy: onCreate event fired
+04-17 00:58:41.543  8526  8526 I ActivitySpy: onStart event fired
+04-17 00:58:41.544  8526  8526 I ActivitySpy: onResume event fired
+04-17 00:58:41.558  1407  1470 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+04-17 00:58:41.559  8526  8543 D OpenGLRenderer: HWUI GL Pipeline
+04-17 00:58:41.596  8526  8543 D         : HostConnection::get() New Host Connection established 0x9a4e4b80, tid 8543
+04-17 00:58:41.598  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:41.601  8526  8543 I OpenGLRenderer: Initialized EGL, version 1.4
+04-17 00:58:41.601  8526  8543 D OpenGLRenderer: Swap behavior 1
+04-17 00:58:41.602  8526  8543 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-17 00:58:41.602  8526  8543 D OpenGLRenderer: Swap behavior 0
+04-17 00:58:41.603  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:41.604  8526  8543 D EGL_emulation: eglCreateContext: 0xa3b32b20: maj 3 min 0 rcv 3
+04-17 00:58:41.606  8526  8543 D EGL_emulation: eglMakeCurrent: 0xa3b32b20: ver 3 0 (tinfo 0xa3b0b460)
+04-17 00:58:41.606  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:41.608  8526  8543 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+04-17 00:58:41.608  8526  8543 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+04-17 00:58:41.609  8526  8543 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+04-17 00:58:41.609  8526  8543 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+04-17 00:58:41.679  8526  8543 D EGL_emulation: eglMakeCurrent: 0xa3b32b20: ver 3 0 (tinfo 0xa3b0b460)
+04-17 00:58:41.729  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:41.729  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:41.729  1624  1645 I ActivityManager: Displayed edu.washington.minhsuan.activityspy/.MainActivity: +854ms
+04-17 00:58:41.764  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:41.764  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:41.777  6202  7926 I PBSessionCacheImpl: Deleted sessionId[290432785879] from persistence.
+04-17 00:58:41.802  6202  6326 W SearchServiceCore: Abort, client detached.
+04-17 00:58:41.807  6202  6326 I WorkerManager: dispose()
+04-17 00:58:41.808  6202  6326 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+04-17 00:58:41.810  6202  6326 I WorkController: WorkProxy is not enqueued because WorkController is disposed: WorkProxy{Name=microdetection::q, WorkerId=microdetection, id=a2efec4}
+04-17 00:58:44.058  1389  1561 W audio_hw_generic: Not supplying enough data to HAL, expected position 6578314 , only wrote 6364800
+04-17 00:58:44.382  1624  1714 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-17 00:58:45.551  1389  3235 W audio_hw_generic: Not supplying enough data to HAL, expected position 6364899 , only wrote 6364800
+04-17 00:58:45.626  1624  1682 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000
+04-17 00:58:45.627  8526  8526 I ActivitySpy: onPause event fired
+04-17 00:58:45.656  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:45.660  1395  1395 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-17 00:58:45.663  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:45.667  1407  1407 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+04-17 00:58:45.673  8526  8543 D EGL_emulation: eglMakeCurrent: 0xa3b32b20: ver 3 0 (tinfo 0xa3b0b460)
+04-17 00:58:45.675  8526  8526 I ActivitySpy: onStop event fired
+04-17 00:58:45.682  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:45.688  1395  1395 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-17 00:58:45.690  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:45.716  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:45.744  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:45.751  6202  6326 W SessionLifecycleManager: Handover failed. Creating new session controller.
+04-17 00:58:45.779  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:45.931  6202  6326 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+04-17 00:58:45.945  6202  6326 I AudioController: Created new AudioSource
+04-17 00:58:45.947  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:45.980  1721  1734 I zygote  : NativeAllocBackground concurrent copying GC freed 1288(194KB) AllocSpace objects, 0(0B) LOS objects, 50% free, 4MB/9MB, paused 1.020ms total 180.663ms
+04-17 00:58:45.980  6202  6600 I MicroRecognitionRunner: Starting detection.
+04-17 00:58:45.980  6202  6600 I MultipleReaderAudioSrc: Using micInputStream
+04-17 00:58:45.981  6202  6338 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:45.983  1478  8550 I AudioFlinger: AudioFlinger's thread 0xb1387bc0 tid=8550 ready to run
+04-17 00:58:45.998  6202  6338 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:46.047  6202  6600 W SpeechLevelGenerator: Really low audio levels detected. The audio input may have issues.
+04-17 00:58:46.048  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:46.086  1389  8548 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+04-17 00:58:46.214  2215  2294 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-17 00:58:46.228  1624  2889 I OpenGLRenderer: Initialized EGL, version 1.4
+04-17 00:58:46.228  1624  2889 D OpenGLRenderer: Swap behavior 1
+04-17 00:58:46.229  1624  2889 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-17 00:58:46.229  1624  2889 D OpenGLRenderer: Swap behavior 0
+04-17 00:58:46.235  1624  2889 D EGL_emulation: eglCreateContext: 0x9a4ae6e0: maj 3 min 0 rcv 3
+04-17 00:58:46.238  1624  2889 D EGL_emulation: eglMakeCurrent: 0x9a4ae6e0: ver 3 0 (tinfo 0x97fdbd60)
+04-17 00:58:46.241  1624  2889 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+04-17 00:58:46.241  1624  2889 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008cdf
+04-17 00:58:46.242  1624  2889 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+04-17 00:58:46.243  1624  2889 E eglCodecCommon: glUtilsParamSize: unknow param 0x00008824
+04-17 00:58:46.384  1624  1633 I zygote  : NativeAllocBackground concurrent copying GC freed 13756(1108KB) AllocSpace objects, 5(116KB) LOS objects, 35% free, 10MB/16MB, paused 17.867ms total 156.326ms
+04-17 00:58:48.458  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:48.602  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 14 lines
+04-17 00:58:48.612  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:49.105  1624  1746 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=edu.washington.minhsuan.activityspy/.MainActivity bnds=[24,245][230,523]} from uid 10020
+04-17 00:58:49.155  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:49.159  8526  8526 I ActivitySpy: onRestart event fired
+04-17 00:58:49.161  8526  8526 I ActivitySpy: onStart event fired
+04-17 00:58:49.161  8526  8526 I ActivitySpy: onResume event fired
+04-17 00:58:49.161  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:49.161  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:49.162  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:49.185  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:49.195  1395  1395 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-17 00:58:49.199  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:49.206  1624  1637 E memtrack: Couldn't load memtrack module
+04-17 00:58:49.206  1624  1637 W android.os.Debug: failed to get memory consumption info: -1
+04-17 00:58:49.220  6202  6326 I MicroDetector: Keeping mic open: false
+04-17 00:58:49.220  6202  6330 I AudioController: internalShutdown
+04-17 00:58:49.220  6202  7926 I MicroRecognitionRunner: Stopping hotword detection.
+04-17 00:58:49.224  6202  6273 I DeviceStateChecker: DeviceStateChecker cancelled
+04-17 00:58:49.230  8526  8543 D EGL_emulation: eglMakeCurrent: 0xa3b32b20: ver 3 0 (tinfo 0xa3b0b460)
+04-17 00:58:49.234  6202  6330 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:49.234  6202  6330 E AudioSource: Stop listening is called on already closed AudioSource
+04-17 00:58:49.241  1389  8548 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+04-17 00:58:49.265  6202  6600 I MicroRecognitionRunner: Detection finished
+04-17 00:58:49.335  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:49.465  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 12 lines
+04-17 00:58:49.472  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:49.540  6202  6338 I PBSessionCacheImpl: Deleted sessionId[290432786202] from persistence.
+04-17 00:58:49.546  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:49.546  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:49.548  6202  6326 W SearchServiceCore: Abort, client detached.
+04-17 00:58:49.554  6202  6600 I zygote  : Deoptimizing void com.google.common.r.a.r.a() due to JIT inline cache
+04-17 00:58:50.834  6202  6273 I EventLogSendingHelper: Sending log events.
+04-17 00:58:52.147  1624  1714 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-17 00:58:52.305  1389  1389 W audio_hw_generic: Not supplying enough data to HAL, expected position 7011029 , only wrote 6688800
+04-17 00:58:52.762  1389  3235 W audio_hw_generic: Not supplying enough data to HAL, expected position 6688998 , only wrote 6688800
+04-17 00:58:52.822  1624  1682 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity (has extras)} from uid 1000
+04-17 00:58:52.827  8526  8526 I ActivitySpy: onPause event fired
+04-17 00:58:52.849  8526  8543 D EGL_emulation: eglMakeCurrent: 0xa3b32b20: ver 3 0 (tinfo 0xa3b0b460)
+04-17 00:58:52.851  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:52.852  8526  8526 I ActivitySpy: onStop event fired
+04-17 00:58:52.856  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:52.865  1407  1407 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+04-17 00:58:52.866  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:52.873  1395  1395 I chatty  : uid=1000(system) allocator@2.0-s identical 2 lines
+04-17 00:58:52.879  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:52.881  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:52.902  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:52.905  6202  6326 W SessionLifecycleManager: Handover failed. Creating new session controller.
+04-17 00:58:52.923  6202  6273 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+04-17 00:58:52.937  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:53.087  6202  6326 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+04-17 00:58:53.100  6202  6326 I AudioController: Created new AudioSource
+04-17 00:58:53.102  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:53.115  6202  6591 I MicroRecognitionRunner: Starting detection.
+04-17 00:58:53.116  6202  6591 I MultipleReaderAudioSrc: Using micInputStream
+04-17 00:58:53.117  6202  6355 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:53.124  1478  8555 I AudioFlinger: AudioFlinger's thread 0xb13878c0 tid=8555 ready to run
+04-17 00:58:53.143  6202  6355 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:53.175  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:53.423  2215  2294 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-17 00:58:53.839  1624  4195 I ActivityManager: START u0 {flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity} from uid 10028
+04-17 00:58:53.850  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:53.855  6202  6326 I MicroDetector: Keeping mic open: false
+04-17 00:58:53.856  6202  6338 I AudioController: internalShutdown
+04-17 00:58:53.856  6202  6273 I DeviceStateChecker: DeviceStateChecker cancelled
+04-17 00:58:53.857  6202  6353 I MicroRecognitionRunner: Stopping hotword detection.
+04-17 00:58:53.863  6202  6354 I PBSessionCacheImpl: Deleted sessionId[290432786203] from persistence.
+04-17 00:58:53.880  6202  6338 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:53.880  6202  6338 E AudioSource: Stop listening is called on already closed AudioSource
+04-17 00:58:53.893  6202  6591 I MicroRecognitionRunner: Detection finished
+04-17 00:58:53.893  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:53.896  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:53.903  6202  6326 W SearchServiceCore: Abort, client detached.
+04-17 00:58:53.908  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:53.930  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:53.940  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 1 line
+04-17 00:58:53.946  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:53.965  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:54.000  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:54.072  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 7 lines
+04-17 00:58:54.076  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:54.132  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:54.133  1407  1407 W SurfaceFlinger: couldn't log to binary event log: overflow.
+04-17 00:58:54.153  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:54.337  1721  1949 I chatty  : uid=10028(u0_a28) RenderThread identical 11 lines
+04-17 00:58:54.340  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:55.834  6202  6591 I EventLogSendingHelper: Sending log events.
+04-17 00:58:55.839  6202  6326 I WorkerManager: dispose()
+04-17 00:58:56.946  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine$PhoneskyJobSchedulerJobService.onStartJob(3): onJobSchedulerWakeup with jobId 9002
+04-17 00:58:56.947  4136  4136 I Finsky  : [2] oyv.a(21): Scheduling fallback job with id: 9034, and delay: 43200000 ms
+04-17 00:58:56.949  4136  4136 I Finsky  : [2] oyv.a(5): Scheduling fallback in 64800000 (absolute: 66290277)
+04-17 00:58:56.982  4136  4136 I Finsky  : [2] ozd.handleMessage(10): DeviceState: DeviceState{currentTime=1555487936975, isCharging=true, isIdle=false, netAny=true, netNotRoaming=true, netUnmetered=true}
+04-17 00:58:56.985  4136  8558 I Finsky  : [394] paj.b(7): Jobs in database: 1-1337 12-1 24-77777777 26-1414141414 
+04-17 00:58:56.999  4136  4136 I Finsky  : [2] oza.a(46): Running job: 12-1
+04-17 00:58:57.001  4136  4136 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(23): ContentSyncJob started
+04-17 00:58:57.002  4136  4136 I Finsky  : [2] ozd.handleMessage(81): RunningQueue size: 1, PendingQueue size: 0
+04-17 00:58:57.002  4136  4136 I Finsky  : [2] ozd.handleMessage(90): Running queue: 12-1 
+04-17 00:58:57.019  4136  4196 I Finsky  : [249] dfj.a(5): Completed 0 account content syncs with 0 successful.
+04-17 00:58:57.019  4136  4136 I Finsky  : [2] com.google.android.finsky.contentsync.ContentSyncJob.a(21): Installation state replication succeeded.
+04-17 00:58:57.019  4136  4136 I Finsky  : [2] pag.a(11): jobFinished: 12-1. TimeElapsed: 20ms
+04-17 00:58:57.020  4136  4136 I Finsky  : [2] oza.a(10): Job 12-1 finished
+04-17 00:58:57.021  4136  4136 I Finsky  : [2] ozd.handleMessage(81): RunningQueue size: 0, PendingQueue size: 0
+04-17 00:58:57.021  4136  4136 I Finsky  : [2] ozd.handleMessage(27): Executor finished
+04-17 00:58:57.051  4136  4136 I Finsky  : [2] paj.b(7): Jobs in database: 1-1337 24-77777777 26-1414141414 
+04-17 00:58:57.053  4136  4136 I Finsky  : [2] oyc.a(66): ConstraintMapping: 24-77777777,  -> L: 0ms, D: 80607571ms, C: false, I: true, N: NET_NONE
+04-17 00:58:57.053  4136  4136 I Finsky  : [2] oyc.a(66): ConstraintMapping: 1-1337,  -> L: 27293224ms, D: 70493224ms, C: false, I: false, N: NET_ANY
+04-17 00:58:57.054  4136  4136 I Finsky  : [2] oyc.a(66): ConstraintMapping: 26-1414141414,  -> L: 40963209ms, D: 41863209ms, C: false, I: false, N: NET_NONE
+04-17 00:58:57.055  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(42): Cancelling existing job with id: 9003
+04-17 00:58:57.056  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(42): Cancelling existing job with id: 9001
+04-17 00:58:57.063  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(14): Throttling wakeup for job 9000 (expected to run in 0 ms) due to recent wakeup
+04-17 00:58:57.063  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9000, L: 30000, D: 80607571, C: false, I: true, N: 0
+04-17 00:58:57.065  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9004, L: 27293224, D: 70493224, C: false, I: false, N: 1
+04-17 00:58:57.067  4136  4136 I Finsky  : [2] com.google.android.finsky.scheduler.JobSchedulerEngine.a(4): Scheduling job Id: 9005, L: 40963209, D: 41863209, C: false, I: false, N: 0
+04-17 00:58:57.269  8526  8526 E ActivitySpy: We’re going down, Captain!
+04-17 00:58:57.272  1624  2000 I ActivityManager: Killing 8526:edu.washington.minhsuan.activityspy/u0a86 (adj 900): remove task
+04-17 00:58:57.273  1624  2637 I ActivityManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity} from uid 10028
+04-17 00:58:57.289  1624  1746 W ActivityManager: Request to remove task ignored for non-existent task 27
+04-17 00:58:57.306  1624  1714 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+04-17 00:58:57.309  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:57.313  1395  1395 I chatty  : uid=1000(system) allocator@2.0-s identical 1 line
+04-17 00:58:57.316  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:57.325  1407  1407 D SurfaceFlinger: duplicate layer name: changing com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity to com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity#1
+04-17 00:58:57.325  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:57.344  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:57.351  1624  1645 W ActivityManager: setHasOverlayUi called on unknown pid: 8526
+04-17 00:58:57.352  6202  6897 D EGL_emulation: eglMakeCurrent: 0x9a505f60: ver 3 0 (tinfo 0x811c0a10)
+04-17 00:58:57.358  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:57.362  1395  1395 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 8298496
+04-17 00:58:57.390  2215  2294 D EGL_emulation: eglMakeCurrent: 0x9a505780: ver 3 0 (tinfo 0x9a5034e0)
+04-17 00:58:57.409  6202  6326 W SessionLifecycleManager: Handover failed. Creating new session controller.
+04-17 00:58:57.413  1721  4880 I zygote  : Explicit concurrent copying GC freed 1817(195KB) AllocSpace objects, 0(0B) LOS objects, 49% free, 4MB/9MB, paused 1.094ms total 82.781ms
+04-17 00:58:57.574  6202  6326 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+04-17 00:58:57.576  6202  6326 I AudioController: Created new AudioSource
+04-17 00:58:57.577  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:57.581  6202  6591 I MicroRecognitionRunner: Starting detection.
+04-17 00:58:57.581  6202  6591 I MultipleReaderAudioSrc: Using micInputStream
+04-17 00:58:57.581  6202  6354 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:57.584  1478  8562 I AudioFlinger: AudioFlinger's thread 0xb19831c0 tid=8562 ready to run
+04-17 00:58:57.597  6202  6354 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+04-17 00:58:57.628  6202  6591 W SpeechLevelGenerator: Really low audio levels detected. The audio input may have issues.
+04-17 00:58:57.629  6202  6326 I MicroDetectionWorker: onReady
+04-17 00:58:57.687  1389  8560 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+04-17 00:58:57.897  2215  2294 W OpenGLRenderer: Incorrectly called buildLayer on View: ShortcutAndWidgetContainer, destroying layer...
+04-17 00:58:59.802  1721  1949 D EGL_emulation: eglMakeCurrent: 0x95faf0a0: ver 3 0 (tinfo 0x95fe6a60)
+04-17 00:58:59.905  1624  1806 D WificondControl: Scan result ready event
+04-17 00:59:00.038  1389  1561 W audio_hw_generic: Not supplying enough data to HAL, expected position 7385376 , only wrote 7038000
+04-17 00:59:02.553  6202  6600 I EventLogSendingHelper: Sending log events.
